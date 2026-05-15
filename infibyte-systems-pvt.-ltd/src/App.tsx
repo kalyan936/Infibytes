@@ -1,11 +1,12 @@
 import React from "react";
 import {
-  HashRouter as Router,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
 
 import { RootLayout } from "./layouts/RootLayout";
+
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Services } from "./pages/Services";
@@ -15,7 +16,7 @@ import { Contact } from "./pages/Contact";
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />
@@ -26,6 +27,6 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
