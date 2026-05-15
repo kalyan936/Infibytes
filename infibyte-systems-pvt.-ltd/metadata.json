@@ -1,0 +1,8 @@
+{
+  "name": "Infibyte Systems Pvt. Ltd",
+  "description": "Enterprise infrastructure and AI solutions by Infibyte Systems Pvt. Ltd.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
