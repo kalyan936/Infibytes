@@ -1,12 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { RootLayout } from './layouts/RootLayout';
-import { Home } from './pages/Home';
-import { About } from './pages/About';
-import { Services } from './pages/Services';
-import { Industries } from './pages/Industries';
-import { Careers } from './pages/Careers';
-import { Contact } from './pages/Contact';
+import React from "react";
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import { RootLayout } from "./layouts/RootLayout";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import { Services } from "./pages/Services";
+import { Industries } from "./pages/Industries";
+import { Careers } from "./pages/Careers";
+import { Contact } from "./pages/Contact";
 
 export default function App() {
   return (
