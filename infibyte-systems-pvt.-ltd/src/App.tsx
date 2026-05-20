@@ -8,6 +8,7 @@ import {
 import { RootLayout } from "./layouts/RootLayout";
 
 import { Home } from "./pages/Home";
+import { HomeAlternate } from "./pages/HomeAlternate";
 import { About } from "./pages/About";
 import { Services } from "./pages/Services";
 import { Industries } from "./pages/Industries";
@@ -20,6 +21,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />
+          <Route path="alternate" element={<HomeAlternate />} />
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="industries" element={<Industries />} />
