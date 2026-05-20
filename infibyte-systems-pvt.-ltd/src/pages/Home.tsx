@@ -41,9 +41,13 @@ export const Home = () => {
             <button className="px-8 py-4 bg-primary text-surface font-bold rounded-full hover:scale-105 transition-transform">
               EXPLORE SOLUTIONS
             </button>
-            <button className="px-8 py-4 border border-white/10 text-white font-bold rounded-full hover:bg-white/5 transition-colors">
-              WATCH REEL
-            </button>
+            <a href="mailto:hr@infibytetech.com" className="flex items-center gap-3 px-8 py-4 border border-white/10 text-white font-bold rounded-full hover:bg-white/5 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#EA4335" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                <path fill="#188038" d="M0 5.457v.902l6.545 4.91V4.64L5.016 3.493C3.398 2.28 1.09 3.435 1.09 5.457z" style={{display:'none'}}/>
+              </svg>
+              EMAIL HR
+            </a>
           </div>
         </div>
 
